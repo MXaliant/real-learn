@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-highlight: #17bf66;
+  --color-main: #28e95e;
+  --color-surface: #d5ffe1;
+}
+
+@font-face {
+  font-family: HyliaSerif;
+  src: url('assets/HyliaSerifBeta-Regular.otf') format('opentype');
+}
+
+body {
+  font-family: 'Open Sans';
+  background: #ece6d9;
+}
